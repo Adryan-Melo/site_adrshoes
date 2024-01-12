@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+body{
+    background-color: aliceblue;
+    
+}
+a{ 
+    color: #fff;
+    text-decoration: none;
+
+}
+
+a:hover{
+    cursor: pointer;;
+}
+
+header{
+    background-color: rgb(5, 96, 141);
+}
+
+#title{
+    font-size: 25px;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+}
+.nav-list li  {
+    letter-spacing: 1px;
+    margin-left: 32px;
+}
+
+.m-menu{
+    cursor: pointer;
+    display: none;
+}
+
+.m-menu div{
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+
+}
+.container li{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.container ul {
+    list-style: none;
+    padding-top: 10px;
+    
+}
+
+
+.inicio {
+    display:block;
+    align-items: center;
+    margin-right: 250px;
+    
+    
+}
+.img{
+    display: flex;
+
+}
+
+.img img{
+    height:200px;
+    width:300px;
+    margin-top: 20px;
+    margin-left: 250px;
+    
+}
+
+.inicio p{
+    margin-left: 30px;
+   
+}
+
+h2{
+    border-bottom: 2px solid #0943e2;
+    align-items: flex-start;
+    margin-bottom: 22px;
+    padding-bottom: 16px;
+    margin-left: 30px;
+    padding-top: 16px;
+    
+}
+
+.produtos{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 225px;
+    margin-right: 225px;
+    margin-bottom: 50px;
+    justify-content: space-evenly;
+
+
+}
+
+#t-p{
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+button{
+    background-color:  rgb(5, 96, 141);
+    padding: 5px;
+    color:#fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    
+    
+}
+
+button:hover{
+    background-color:rgb(5, 69, 100);
+
+}
+
+#model{
+    font-weight: bold;
+}
+
+footer{
+    background-color: rgb(5, 96, 141);
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+
+}
