@@ -153,3 +153,140 @@ footer{
     padding: 10px;
 
 }
+
+@media screen and (max-width: 640px) { 
+
+    .produtos  {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    margin: 0;
+    margin-bottom: 20px;
+    
+
+    }
+    .img{
+        display: flex;
+        align-content: stretch;
+        flex-wrap: wrap;
+        margin-left: auto;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+
+    .img img{
+        display: flex;
+        height: 240px;
+        width: 600px;
+        margin-top: px;
+        margin: 0;
+        
+
+        
+    }
+
+    .inicio {
+    display: grid;
+    align-items: center;
+    margin: 0;
+    
+    }
+   
+    #t-p,
+    #h2t{
+        display: grid;
+        margin-top: 20px;
+        justify-content: start;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+
+    .inicio p{
+        display: grid;
+        width: 80%;
+        padding-right: 10px;
+        margin: 2px;
+        
+    }
+
+    nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    }
+
+    .nav-list{
+        display: block;
+    }
+}
+
+@media screen and (min-width:641px) and (max-width: 1023px) { 
+
+    .produtos  {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+
+    }
+    .img{
+        display: flex;
+        align-content: stretch;
+        flex-wrap: wrap;
+        margin-left: auto;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+
+    .img img{
+        display: flex;
+        height: 240px;
+        width: 600px;
+        margin-top: px;
+        margin: 0;
+        
+
+        
+    }
+
+    .inicio {
+    display: grid;
+    align-items: center;
+    margin: 0;
+    
+    }
+   
+    #t-p,
+    #h2t{
+        display: grid;
+        margin-top: 20px;
+        justify-content: start;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+
+    .inicio p{
+        display: grid;
+        width: 80%;
+        padding-right: 10px;
+        margin: 2px;
+        
+    }
+
+    nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    }
+
+    .nav-list{
+        display: block;
+    }
+}
